@@ -2,7 +2,7 @@
 
 This repository contains a research-oriented machine learning pipeline for **Chronic Kidney Disease (CKD) risk stratification** using demographic, lifestyle, family-history, and health-related questionnaire features.
 
-The main analysis is implemented in `CKD_Pipeline.ipynb`. The notebook builds a binary CKD-risk label from a composite risk score, compares multiple machine-learning models and class-imbalance strategies, evaluates calibration and classification performance, and performs explainability, robustness, ablation, decision-curve, and subgroup/fairness analyses.
+The main analysis is implemented in `CKD_Model.ipynb`. The notebook builds a binary CKD-risk label from a composite risk score, compares multiple machine-learning models and class-imbalance strategies, evaluates calibration and classification performance, and performs explainability, robustness, ablation, decision-curve, and subgroup/fairness analyses.
 
 > **Important:** This is a research/ML analysis pipeline. The risk labels in this notebook are derived from the dataset's composite risk features and clustering procedure; they are **not equivalent to a clinical CKD diagnosis** and should not be used as a standalone medical diagnostic tool.
 
